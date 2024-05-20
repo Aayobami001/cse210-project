@@ -96,8 +96,8 @@ class Scripture {
 class Program {
     static void Main(string[] args) {
         // Example scripture: John 3:16
-        Reference reference = new Reference("John", 3, 16);
-        string scriptureText = "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.";
+        Reference reference = new Reference("Alma", 37, 38);
+        string scriptureText = "And now, my son, I have somewhat to say concerning the things which our fathers call a ball, or director or our father called it liahona, which is, interpreted, a compass, and the lord prepare it.";
         Scripture scripture = new Scripture(reference, scriptureText);
 
         while (true) {
