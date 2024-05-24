@@ -111,7 +111,7 @@ class Program {
                 break;
             }
 
-            Console.WriteLine("\nPress Enter to hide more words or type 'quit' to exit.");
+            Console.WriteLine("\nPress Enter to hide more words or type 'Quit' to exit.");
             string input = Console.ReadLine();
             if (input.ToLower() == "quit") {
                 break;
