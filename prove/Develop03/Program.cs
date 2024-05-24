@@ -29,6 +29,7 @@ class Reference {
     }
 
     // Constructor for verse range
+    
     public Reference(string book, int startChapter, int startVerse, int endChapter, int endVerse) {
         Book = book;
         StartChapter = startChapter;
@@ -95,7 +96,8 @@ class Scripture {
 
 class Program {
     static void Main(string[] args) {
-        // Example scripture: John 3:16
+        Console.WriteLine("Welcome to the Scripture Memorization program!");
+        // Example scripture: Alma 37:38
         Reference reference = new Reference("Alma", 37, 38);
         string scriptureText = "And now, my son, I have somewhat to say concerning the things which our fathers call a ball, or director or our father called it liahona, which is, interpreted, a compass, and the lord prepare it.";
         Scripture scripture = new Scripture(reference, scriptureText);
