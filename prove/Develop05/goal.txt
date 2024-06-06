@@ -1,0 +1,5 @@
+0
+SimpleGoal|runnig|egwegweg|55|False
+EternalGoal|ethtrs|getshteh|66|False
+SimpleGoal|am coming|move|50|False
+EternalGoal|spirit|becoming|60|False

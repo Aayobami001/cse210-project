@@ -9,6 +9,7 @@
 // }
 
 using System;
+using System.IO;
 using System.Threading;
 
 abstract class MindfulnessActivity
@@ -25,7 +26,6 @@ abstract class MindfulnessActivity
     protected void DisplayStartingMessage()
     {
         Console.WriteLine("Welcome to the Mindfulness App.");
-
         Console.WriteLine($"This activity will help you to {GetDescription()}.");
         Console.WriteLine("How long, in seconds, would you like for your session?");
         duration = int.Parse(Console.ReadLine());
@@ -53,6 +53,7 @@ abstract class MindfulnessActivity
     protected abstract void PerformActivity();
     protected abstract string GetDescription();
 }
+
 // B
 class BreathingActivity : MindfulnessActivity
 {
