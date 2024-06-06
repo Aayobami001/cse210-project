@@ -121,7 +121,7 @@ public class Program
 {
     public static void Main()
     {
-        Console.WriteLine("\nInheritance With Event Planning\n");
+        Console.WriteLine("\n Processing Inheritance With Event Planning\n");
         // Create addresses
         Address address1 = new Address("123 Main St", "New York", "NY", "USA");
         Address address2 = new Address("456 Elm St", "San Francisco", "CA", "USA");
